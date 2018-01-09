@@ -1,5 +1,7 @@
-'''Sequence to sequence example in Keras (character-level).
-
+'''Word-based sequence to sequence RNN translator that trains on a parallel corpus of 
+ten Hebrew Torahs on one side and ten different English translations on the 
+other. Built primarily by Justin Barber as an extensive revision of Keras author
+Francois Chollet's character-based model trained on a simple French-English corpus.
 '''
 from __future__ import print_function
 
